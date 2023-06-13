@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/EmanMohsen511/coffee-react/static/css/main.68f9b31d.css",
-    "main.js": "/EmanMohsen511/coffee-react/static/js/main.84ceb42c.js",
-    "static/media/header-bg.jpg": "/EmanMohsen511/coffee-react/static/media/header-bg.af6b8895d9bf5dd919ea.jpg",
-    "static/media/footer-bg.jpg": "/EmanMohsen511/coffee-react/static/media/footer-bg.f728928f5ec5f47d14a7.jpg",
-    "static/media/g3.jpg": "/EmanMohsen511/coffee-react/static/media/g3.e11f3061fbf953214eef.jpg",
-    "static/media/g4.jpg": "/EmanMohsen511/coffee-react/static/media/g4.105e4ce2300bbff0a608.jpg",
-    "static/media/g2.jpg": "/EmanMohsen511/coffee-react/static/media/g2.c4a9407df05624e437f6.jpg",
-    "static/media/menu-bg.jpg.webp": "/EmanMohsen511/coffee-react/static/media/menu-bg.jpg.a64e29cd33076aaec183.webp",
-    "static/media/g1.jpg": "/EmanMohsen511/coffee-react/static/media/g1.f9ff637306f774c7f8f9.jpg",
-    "static/media/g5.jpg": "/EmanMohsen511/coffee-react/static/media/g5.4cd290a52d051517a33e.jpg",
-    "index.html": "/EmanMohsen511/coffee-react/index.html",
-    "main.68f9b31d.css.map": "/EmanMohsen511/coffee-react/static/css/main.68f9b31d.css.map",
-    "main.84ceb42c.js.map": "/EmanMohsen511/coffee-react/static/js/main.84ceb42c.js.map"
+    "main.css": "/coffee-react/static/css/main.637872e9.css",
+    "main.js": "/coffee-react/static/js/main.b3d8453b.js",
+    "static/media/header-bg.jpg": "/coffee-react/static/media/header-bg.af6b8895d9bf5dd919ea.jpg",
+    "static/media/footer-bg.jpg": "/coffee-react/static/media/footer-bg.f728928f5ec5f47d14a7.jpg",
+    "static/media/g3.jpg": "/coffee-react/static/media/g3.e11f3061fbf953214eef.jpg",
+    "static/media/g4.jpg": "/coffee-react/static/media/g4.105e4ce2300bbff0a608.jpg",
+    "static/media/g2.jpg": "/coffee-react/static/media/g2.c4a9407df05624e437f6.jpg",
+    "static/media/menu-bg.jpg.webp": "/coffee-react/static/media/menu-bg.jpg.a64e29cd33076aaec183.webp",
+    "static/media/g1.jpg": "/coffee-react/static/media/g1.f9ff637306f774c7f8f9.jpg",
+    "static/media/g5.jpg": "/coffee-react/static/media/g5.4cd290a52d051517a33e.jpg",
+    "index.html": "/coffee-react/index.html",
+    "main.637872e9.css.map": "/coffee-react/static/css/main.637872e9.css.map",
+    "main.b3d8453b.js.map": "/coffee-react/static/js/main.b3d8453b.js.map"
   },
   "entrypoints": [
-    "static/css/main.68f9b31d.css",
-    "static/js/main.84ceb42c.js"
+    "static/css/main.637872e9.css",
+    "static/js/main.b3d8453b.js"
   ]
 }
