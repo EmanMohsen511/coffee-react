@@ -71,7 +71,7 @@ nav.scrolled nav a{
     color: #fff;
 }
 .home-2 h1{
-    margin-top: 250px;
+    margin-top: 150px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -136,7 +136,7 @@ nav.scrolled nav a{
 
 footer{
     background-image: url(./images/footer-bg.jpg);
-    height: 500px;
+    
 }
 .footer-content h4{
     color: #fff;

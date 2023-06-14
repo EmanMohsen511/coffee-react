@@ -11,7 +11,8 @@ function Navbar() {
       <Link className="navbar-brand" to="/">
         <img src={require('../images/logo.png') } alt="logo" />
       </Link>
-      <div className="collapse navbar-collapse nav-li" id="navbarNav">         
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
+      <div className="collapse navbar-collapse nav-li" id="navbarNavDropdown">         
         <div className="deatail row  ">
           <ul className="deatail-list d-flex ">             
             <li className="pe-3"> Mon-Fri: 8am to 2pm</li>
@@ -22,7 +23,7 @@ function Navbar() {
         <div className="det">                  
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <Link className="nav-link  text-white" aria-current="page" to="#!">Home</Link>
+              <Link className="nav-link  text-white" aria-current="page" to="/">Home</Link>
             </li>{/* nav-item */}
             <li className="nav-item">
               <Link className="nav-link" to="/">About</Link>

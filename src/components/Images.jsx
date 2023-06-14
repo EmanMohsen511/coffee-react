@@ -10,18 +10,18 @@ function Images({coffee}) {
     <div className="row">
   
   <div className="col col-md-4 .col-sm-12 ">
-    <img src= {require("../images/g1.jpg" )} alt="" />
+    <img height="300px"src= {require("../images/g1.jpg" )} alt="" />
   </div>{/* coll-3 */}
-  <div className="col col-md-8 .col-sm-12 ">
-    <img src={require("../images/g3.jpg" )}alt=""  />
+  <div className="col col-md-8 .col-sm-12 mb-3">
+    <img height="300px"  src={require("../images/g3.jpg" )}alt=""  />
   </div>{/* coll-9 */}
-  <div className="coll col-md-4 .col-sm-12 ">
-    <img src={require("../images/g2.jpg" )} alt=""  />
+  <div className="coll col-md-4 .col-sm-12 mb-3 ">
+    <img  height="280px" src={require("../images/g2.jpg" )} alt=""  />
   </div>{/* coll-3 */}
-  <div className="col col-md-4 .col-sm-12 ">
+  <div className="col col-md-4 .col-sm-12 mb-3">
     <img src={require("../images/g4.jpg" )} alt=""  />
   </div>{/* coll-4 */}
-  <div className="col col-md-4 .col-sm-12 ">
+  <div className="col col-md-4 .col-sm-12 mb-3">
     <img src={require("../images/g5.jpg" )} alt=""  />
   </div>{/* coll-4 */}
 </div>{/* row */}

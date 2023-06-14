@@ -4,7 +4,7 @@ function Cards({coffe}) {
   return (
     <>
 
-      <div className="col-md-4 col-sm-6  ">
+      <div className="col-md-4 col-sm-12  ">
    <div className="card " >
    <img className='card-img-top' height={200} src= {coffe.image}  alt='' />
   <div className="card-body">

@@ -9,7 +9,7 @@ body{
 
 /* header-nav */
 header{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 .header-nav{
     background-color: #B68834;
@@ -20,20 +20,12 @@ header{
 
 nav{
     background: transparent;  
-    transition:  background-color .4s ease-in-out;
 }
 nav.scrolled{
     background-color: rgba(78, 58, 58, 0.7);
 }
-nav a{
-    transition: color .4s ease-in-out;
-}
 nav.scrolled nav a{
     color: #fff;
-}
-.nav-details{
-     /* height: 100px; */
-     margin-top: 15px;
 }
 .nav-li{
     color: #fff;
@@ -59,7 +51,6 @@ nav.scrolled nav a{
 }
 .det{
     position: absolute;
-    top: -18px;
     right: 0;
 }
 /* home */
@@ -67,13 +58,12 @@ nav.scrolled nav a{
     position: absolute;
     top: 0;
     left: 0;
-    /* transform: translate(10% , 10%); */
     color: #fff;
 }
 .home-1 h1{
-    margin-top: 250px;
+    margin-top: 150px;
     text-align: center;
-    margin-bottom: 20px;
+
 }
 .home-1 p{
     text-align: center;
@@ -83,7 +73,7 @@ nav.scrolled nav a{
 
 footer{
     background-image: url(./images/footer-bg.jpg);
-    height: 500px;
+    
 }
 .footer-content h4{
     color: #fff;

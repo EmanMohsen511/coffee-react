@@ -11,7 +11,7 @@ function Home({coffee}) {
    <section className="home">
   <div className="container">
     <div className="row home-content position-absolute">
-      <div className="col-md-7 col-sm-6">
+      <div className="col-md-7 col-sm-12">
         <span>NOW YOU CAN FEEL THE ENERGY</span>
         <p>Start your day with
           a black Coffee</p>
@@ -23,7 +23,7 @@ function Home({coffee}) {
 <Video/>
 <CardList coffee ={coffee}/>
 <Images coffee ={coffee}/>
-<Rates coffee ={coffee}/>
+<Rates />
 <Life/>
 
     </>

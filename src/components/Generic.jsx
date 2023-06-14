@@ -14,13 +14,13 @@ function Generic() {
   <section className="video">
     <div className="container">
       <div className="row vedio-pos">
-        <div className="col-md-6 col-sm-6 col-1">
+        <div className="col-md-6 col-sm-12 col-1">
           <div className="overlay overlay-bg" />
           <div className="iframe">
             <iframe src="https://www.youtube.com/embed/ARA0AxrnHdM" title="YouTube video player" frameBorder={1} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
           </div>
         </div>{/* left */}
-        <div className="col-md-6 col-sm-6 col-2">
+        <div className="col-md-6 col-sm-12 col-2">
           <p className="p-1">LIVE COFFEE MAKING PROCESS.</p>
           <h2>We Telecast our
             Coffee Making Live</h2>

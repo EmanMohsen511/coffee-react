@@ -9,30 +9,25 @@ body{
 
 /* header-nav */
 header{
-    margin-bottom: 100px;
-}
-.header-nav{
+    margin-bottom: 100px; 
     background-image: url(./images/header-bg.jpg);
     background-size: cover;
     width: 100%;
-    height: 700px;   
+    height: 700px; 
 }
-
 nav{
     background: transparent;  
-    transition:  background-color .4s ease-in-out;
 }
 nav.scrolled{
     background-color: rgba(78, 58, 58, 0.7);
 }
-nav a{
-    transition: color .4s ease-in-out;
-}
 nav.scrolled nav a{
     color: #fff;
 }
+.nav-details a:hover{
+    color: #fff;
+}
 .nav-details{
-     /* height: 100px; */
      margin-top: 15px;
 }
 .nav-li{
@@ -86,52 +81,35 @@ nav.scrolled nav a{
 
 /* vedio */
 .video{
-height: 450px;
-margin-bottom: 50px;
-}
-.col-1{
-    position: relative;  
-    width: 500px;
-    height: 350px;
-    border-radius: 10px;
+   /* margin-bottom: 100px; */
 }
 iframe{
-   border-radius: 10px;
-   width: 500px;
-   height: 350px;  
+   border-radius: 10px; 
 }
 .col-2{
   text-align: left;
   padding-left: 100px;
   width: 500px;
-  position: relative;
-  
+  position: relative; 
 }
-.col-2 .p-1{
+.col-2 .pa-1{
     color: burlywood;
 }
-.col-2 h2{
-    font-size: 40px;
-    font-weight: bold;
-}
-.col-2 h5{
-    font-size: 17px;
-}
-.col-2 .p-2{
+.col-2 .pa-2{
     color: rgb(151, 151, 151);
 }
+
+
 /* desc */
 .desc .para-1{
     font-size: 40px;
     font-weight: bold;
-      padding-top: 130px;
+    padding-top: 80px;
 }
 .desc{
     background-image: url(./images/menu-bg.jpg.webp);
-    /* height: 1600px; */
-    margin-bottom: 100px;
+    margin-bottom: 100px; margin-top: 250px; 
 }
-
 .desc .para-2{
     font-size: 20px;
     color: rgb(90, 90, 90);  
@@ -173,14 +151,10 @@ h5.card-title{
 .img-sec img{
     display: flex;
     margin-left: 40px;
-    margin-bottom: 30px; 
-}
-.coll{
-    margin-top: -138px;
+    width: 100%;
 }
 /* rate-sec */
 .rate-sec{
-    height: 800px;
     margin-bottom: 100px;
     background-color: #B68834;
 }
@@ -230,12 +204,10 @@ h5.card-title{
 /* life-sec */
 .life-sec{
     margin-bottom: 150px;
-    height: 700px;
 }
 .life-sec .para-1{
     font-size: 40px;
-    font-weight: bold;
-    
+    font-weight: bold;   
     color: #000;
 }
 .life-sec .para-2{
@@ -267,27 +239,23 @@ h5.card-title{
     color: #000;
 }
 footer{
-    background-image: url(./images/footer-bg.jpg);
-    height: 500px;
+    background-image: url(./images/footer-bg.jpg); 
+    width: 100%;
+    background-repeat: no-repeat;  
 }
 .footer-content h4{
     color: #fff;
-    padding-top: 200px;
 }
 .footer-content {
-    width: 100%;
+    width: 100%;  
 }
 .footer-content p{
     color: #fff;
-    /* font-size: 20px; */
-    margin: 25px 0;
+     font-size: 13px;
 }
 .footer-content p a{
     text-decoration: none;
     color: #B68834;
-}
-.footer-content  .p-1{
-    margin: 20px 0;
 }
 .footer-content .heart{
     color: chocolate;
